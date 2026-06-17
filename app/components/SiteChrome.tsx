@@ -62,7 +62,7 @@ function Header() {
         ))}
       </nav>
 
-      <Link className="header-cta" href="/contact">
+      <Link className="header-cta" href="#contact">
         Contact us
       </Link>
     </header>
@@ -83,7 +83,7 @@ export function Footer() {
       <div className="footer-content">
         <p className="eyebrow">Let&apos;s talk</p>
         <h2>About your project</h2>
-        <Link className="footer-cta" href="/contact">
+        <Link className="footer-cta" href="#contact">
           Get in touch
         </Link>
         <h3>Contact info</h3>
