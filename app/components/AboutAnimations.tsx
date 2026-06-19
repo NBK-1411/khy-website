@@ -1,11 +1,14 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 export function AboutAnimations() {
+  const pathname = usePathname();
+
   useEffect(() => {
     const elements = Array.from(
-      document.querySelectorAll<HTMLElement>(".about-reveal, .product-reveal"),
+      document.querySelectorAll<HTMLElement>(".scroll-reveal, .about-reveal, .product-reveal"),
     );
 
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
@@ -33,7 +36,7 @@ export function AboutAnimations() {
     elements.forEach((element) => observer.observe(element));
 
     return () => observer.disconnect();
-  }, []);
+  }, [pathname]);
 
   return null;
 }

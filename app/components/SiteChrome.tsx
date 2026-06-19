@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 import type { CSSProperties, ReactNode } from "react";
 import { useState } from "react";
 import { assets, navItems } from "../data";
+import { AboutAnimations } from "./AboutAnimations";
 
 export function SiteChrome({ children }: { children: ReactNode }) {
   return (
@@ -15,6 +16,7 @@ export function SiteChrome({ children }: { children: ReactNode }) {
         Skip to main content
       </a>
       <Header />
+      <AboutAnimations />
       <main id="main">{children}</main>
       <Footer />
       <a

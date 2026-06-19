@@ -40,7 +40,7 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
 
   return (
     <SiteChrome>
-      <section className="product-detail-hero">
+      <section className="product-detail-hero product-reveal reveal-from-bottom">
         <h1>{product.title}</h1>
         {product.description ? <p>{product.description}</p> : null}
         <Link className="product-quote-button" href="/contact">
@@ -49,8 +49,11 @@ export default async function ProductDetailPage({ params }: ProductDetailPagePro
       </section>
 
       <section className="product-detail-list" aria-label={`${product.title} range`}>
-        {product.items.map((item) => (
-          <article className="product-detail-item" key={item.name}>
+        {product.items.map((item, index) => (
+          <article
+            className={`product-detail-item product-reveal reveal-from-bottom reveal-delay-${(index % 5) + 1}`}
+            key={item.name}
+          >
             <Image src={item.image} alt={item.name} width={823} height={830} />
             <h2>{item.name}</h2>
           </article>

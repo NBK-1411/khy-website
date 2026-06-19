@@ -492,6 +492,7 @@ select {
   }
 }
 
+.scroll-reveal,
 .about-reveal,
 .product-reveal {
   opacity: 0;
@@ -511,6 +512,7 @@ select {
   transform: translateX(42px);
 }
 
+.scroll-reveal.is-visible,
 .about-reveal.is-visible,
 .product-reveal.is-visible {
   opacity: 1;
@@ -1800,7 +1802,9 @@ address a:focus-visible {
     animation: none;
   }
 
-  .about-reveal {
+  .scroll-reveal,
+  .about-reveal,
+  .product-reveal {
     opacity: 1;
     transform: none;
     transition: none;

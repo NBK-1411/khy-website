@@ -28,7 +28,7 @@ export default function ServicesPage() {
   return (
     <SiteChrome>
       <section className="services-wix-hero" aria-labelledby="services-title">
-        <div className="services-wix-hero-copy">
+        <div className="services-wix-hero-copy scroll-reveal reveal-from-left">
           <p>Our services</p>
           <h1 id="services-title">Reimagine your office space</h1>
           <h2>
@@ -37,7 +37,7 @@ export default function ServicesPage() {
           </h2>
         </div>
         <Image
-          className="services-wix-hero-image"
+          className="services-wix-hero-image scroll-reveal reveal-from-right reveal-delay-1"
           src={assets.productHero}
           alt="Allure executive desk detail"
           width={1306}
@@ -49,8 +49,14 @@ export default function ServicesPage() {
       <section className="services-wix-list" aria-label="Service offerings">
         {services.map((service) => (
           <article key={service.title}>
-            <Image src={service.image} alt={service.alt} width={708} height={720} />
-            <div>
+            <Image
+              className="scroll-reveal reveal-from-left"
+              src={service.image}
+              alt={service.alt}
+              width={708}
+              height={720}
+            />
+            <div className="scroll-reveal reveal-from-right reveal-delay-1">
               <h2>{service.title}</h2>
               <p>{service.body}</p>
             </div>
@@ -58,7 +64,10 @@ export default function ServicesPage() {
         ))}
       </section>
 
-      <section className="services-wix-process" aria-labelledby="services-process-title">
+      <section
+        className="services-wix-process scroll-reveal reveal-from-bottom"
+        aria-labelledby="services-process-title"
+      >
         <h2 id="services-process-title">Consult. Design. Plan. Deliver.</h2>
         <p>
           Needing support to create the perfect environment for your office? Our

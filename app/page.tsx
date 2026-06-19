@@ -7,7 +7,7 @@ import { assets } from "./data";
 export default function Home() {
   return (
     <SiteChrome>
-      <section className="home-hero">
+      <section className="home-hero scroll-reveal reveal-from-bottom">
         <Image
           src={assets.homeHero}
           alt="Elegant furnished interior by KHY"
@@ -15,7 +15,7 @@ export default function Home() {
           height={546}
           priority
         />
-        <div className="home-hero-copy">
+        <div className="home-hero-copy scroll-reveal reveal-from-bottom reveal-delay-1">
           <h1>
             <span>Beyond Imagination,</span>
             <span>Beautifully Furnished</span>
@@ -27,7 +27,7 @@ export default function Home() {
       </section>
 
       <section className="intro-split">
-        <div>
+        <div className="scroll-reveal reveal-from-left">
           <p className="eyebrow">Get to know us</p>
           <h2>About KHY</h2>
           <p>
@@ -38,7 +38,7 @@ export default function Home() {
             Read more
           </Link>
         </div>
-        <div className="intro-image-stack">
+        <div className="intro-image-stack scroll-reveal reveal-from-right reveal-delay-1">
           <Image
             className="intro-bg-image"
             src={assets.abstractGrey}

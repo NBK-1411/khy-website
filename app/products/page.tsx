@@ -1,13 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
-import { AboutAnimations } from "../components/AboutAnimations";
 import { SiteChrome } from "../components/SiteChrome";
 import { assets, products } from "../data";
 
 export default function ProductsPage() {
   return (
     <SiteChrome>
-      <AboutAnimations />
       <section className="products-hero" aria-labelledby="products-title">
         <div className="products-hero-copy product-reveal reveal-from-left">
           <p className="eyebrow">Shop from us</p>
@@ -29,9 +27,9 @@ export default function ProductsPage() {
 
       <section className="catalog-section" aria-label="Product categories">
         <div className="catalog-grid">
-          {products.map((product) => (
+          {products.map((product, index) => (
             <article
-              className="catalog-card"
+              className={`catalog-card product-reveal reveal-from-bottom reveal-delay-${(index % 5) + 1}`}
               key={product.name}
             >
               <Link href={`/products/${product.slug}`} aria-label={product.name}>

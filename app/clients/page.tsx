@@ -59,7 +59,7 @@ const galleryImages = [
 export default function ClientsPage() {
   return (
     <SiteChrome>
-      <section className="clients-wix-hero" aria-labelledby="clients-title">
+      <section className="clients-wix-hero scroll-reveal reveal-from-bottom" aria-labelledby="clients-title">
         <p>Who we have served</p>
         <h1 id="clients-title">Our clientele</h1>
         <h2>We believe every client is a valuable long-term partner.</h2>
@@ -67,13 +67,14 @@ export default function ClientsPage() {
 
       <section className="clients-wix-trusted" aria-label="Trusted by industry leaders">
         <Image
+          className="scroll-reveal reveal-from-left"
           src={assets.clientsHero}
           alt="Completed client workspace with lounge furniture"
           width={1033}
           height={810}
           priority
         />
-        <div className="clients-wix-trusted-card">
+        <div className="clients-wix-trusted-card scroll-reveal reveal-from-right reveal-delay-1">
           <h2>
             <span>Trusted by</span>
             <strong>Industry Leaders</strong>
@@ -89,8 +90,11 @@ export default function ClientsPage() {
       </section>
 
       <section className="clients-wix-grid" aria-label="Client project descriptions">
-        {clientCards.map((client) => (
-          <article key={client.name}>
+        {clientCards.map((client, index) => (
+          <article
+            className={`scroll-reveal reveal-from-bottom reveal-delay-${(index % 5) + 1}`}
+            key={client.name}
+          >
             <div className="clients-wix-logo">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -116,9 +120,11 @@ export default function ClientsPage() {
       </section>
 
       <section className="clients-wix-gallery" aria-labelledby="projects-gallery-title">
-        <h2 id="projects-gallery-title">Projects Gallery</h2>
+        <h2 className="scroll-reveal reveal-from-bottom" id="projects-gallery-title">
+          Projects Gallery
+        </h2>
         <div>
-          {galleryImages.map((image) => (
+          {galleryImages.map((image, index) => (
             <Image
               key={image.src}
               src={image.src}
@@ -126,7 +132,7 @@ export default function ClientsPage() {
               width={960}
               height={720}
               unoptimized
-              className={image.orientation === "portrait" ? "portrait" : undefined}
+              className={`${image.orientation === "portrait" ? "portrait " : ""}scroll-reveal reveal-from-bottom reveal-delay-${(index % 5) + 1}`}
             />
           ))}
         </div>

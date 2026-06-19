@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { AboutAnimations } from "../components/AboutAnimations";
 import { PageHero, SiteChrome } from "../components/SiteChrome";
 import { assets, team, values } from "../data";
 
@@ -7,7 +6,6 @@ export default function AboutPage() {
   return (
     <SiteChrome>
       <div className="about-page">
-        <AboutAnimations />
         <div className="about-reveal reveal-from-bottom">
           <PageHero
             eyebrow="Get to know us"
