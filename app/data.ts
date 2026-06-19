@@ -1,5 +1,5 @@
 export const assets = {
-  logo: "https://static.wixstatic.com/media/579291_c41d72d4932f4ef586719438f5c2ecf8~mv2.png/v1/fill/w_94,h_128,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Khy.png",
+  logo: "/website-images/khy-logo-edited.png",
   homeHero:
     "https://static.wixstatic.com/media/579291_e3d5f3b9f9b24cb5a797c25d956a11b0~mv2.jpg/v1/fill/w_838,h_546,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/579291_e3d5f3b9f9b24cb5a797c25d956a11b0~mv2.jpg",
   abstractGrey:

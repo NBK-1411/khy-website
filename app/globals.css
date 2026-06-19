@@ -96,8 +96,8 @@ select {
 }
 
 .brand img {
-  width: 162px;
-  height: 75px;
+  width: auto;
+  height: 92px;
   object-fit: contain;
 }
 
@@ -1644,8 +1644,8 @@ address a:focus-visible {
   }
 
   .brand img {
-    width: 162px;
-    height: 75px;
+    width: auto;
+    height: 86px;
   }
 
   .site-nav {
@@ -1816,8 +1816,8 @@ address a:focus-visible {
   }
 
   .brand img {
-    width: 118px;
-    height: 55px;
+    width: auto;
+    height: 66px;
   }
 
   .nav-toggle {
