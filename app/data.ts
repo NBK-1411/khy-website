@@ -186,6 +186,26 @@ export const productDetails = [
         image:
           "/website-images/bene_riya_beca6576.webp",
       },
+      {
+        name: "Allure Arm",
+        image:
+          "/website-images/ALLURE_ARM_POLISHED.jpg",
+      },
+      {
+        name: "Diamond Loop",
+        image:
+          "/website-images/DIAMOND-LOOP-3.jpg",
+      },
+      {
+        name: "Flex Executive",
+        image:
+          "/website-images/flex_executive_andreu_world_SO1860_armchair_1.webp",
+      },
+      {
+        name: "Alya Executive",
+        image:
+          "/website-images/andreu_world_alya_executive_so1482_1%20(1).webp",
+      },
     ],
   },
   {
@@ -201,6 +221,10 @@ export const productDetails = [
       ["DHL", "/website-images/DHL-HB-04.jpg"],
       ["Dot.Pro", "/website-images/forma-5-dotpro-ergonomic-chair.jpg"],
       ["Flexi", "/website-images/Khy%20(3).jpg"],
+      ["FX 1103", "/website-images/fx_1103a_42762.webp"],
+      ["FX 1104", "/website-images/fx_1104_42826.webp"],
+      ["VI Chair", "/website-images/VI_1401_41507%20(1).webp"],
+      ["LDS", "/website-images/LDS.jpg"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -223,6 +247,10 @@ export const productDetails = [
       ["Cappa Swivel", "/website-images/CAPPA_GAS_BASE_STAR_ALUMINIUM_69%20(2).webp"],
       ["Chico Swivel", "/website-images/Chico-4-Star-Stone-Grey-02.jpg"],
       ["Classical", "/website-images/Classical-Chr_Black-HB-02a.jpg"],
+      ["Chico Brown", "/website-images/Chico-4-Legged-Brown-01.jpg"],
+      ["Chico Brown Side", "/website-images/Chico-4-Legged-Brown-04.jpg"],
+      ["Cappa Sled", "/website-images/CAPPA_BASE_SLED_WHITE%20(1).webp"],
+      ["Glove Beech", "/website-images/GLOVE_SELF-CENTRING_BEECH_SEATPAD%20(1).webp"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -241,6 +269,9 @@ export const productDetails = [
       ["Bow Chair", "/website-images/01__zdjecie_glowne_produktu.jpg"],
       ["Bow Lounge", "/website-images/BOW%20LOUNGE_055.jpg"],
       ["Breeze", "/website-images/Breeze%20(1).jpg"],
+      ["Marina Lounge", "/website-images/MARINA_015.jpg"],
+      ["Milla", "/website-images/milla-chupryna-viber-2020-04-01-23-03-3.jpg"],
+      ["Nota Soft", "/website-images/AIEnhancer_NOTA_008%20(2).png"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -261,6 +292,10 @@ export const productDetails = [
       ["Bika", "/website-images/1b213ab8-bafa-4c60-9479-1cd25e657ebe.webp"],
       ["Costa", "/website-images/Costa_Side_Canteen_00_600x600px%20(1).webp"],
       ["Glove", "/website-images/GLOVE_4-LEGGED_OCHER-01.webp"],
+      ["Glove High", "/website-images/GLOVE_4-LEGGED_HIGH.webp"],
+      ["Glove Seatpad", "/website-images/GLOVE_SELF-CENTRING_BEECH_SEATPAD%20(1).webp"],
+      ["Cappa Bar", "/website-images/CAPPA_BASE_SLED_WHITE%20(1).webp"],
+      ["Campus", "/website-images/AIEnhancer_CAMPUS_01%20(1).png"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -275,6 +310,10 @@ export const productDetails = [
       ["Evolution Single", "/website-images/Evolution-single-desk-mobile-pedestal-WTWT-300x300.jpg"],
       ["F25", "/website-images/f25.webp"],
       ["V30", "/website-images/v30.webp"],
+      ["F25 Desk", "/website-images/F25_DESK_01.webp"],
+      ["Ecocentric Lite", "/website-images/ECOCENTRIC-LITE-IN-DARK-EUCALYPTUS-AND-BLACK.jpg"],
+      ["E-Process", "/website-images/AIEnhancer_EProcess.png"],
+      ["Grow", "/website-images/AIEnhancer_grow-engineering-grow-construc.png"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -288,6 +327,10 @@ export const productDetails = [
       ["Diamond Exec", "/website-images/DIAMOND-EXEC-4.jpg"],
       ["Diamond Loop Exec", "/website-images/DIAMOND-LOOP-EXECUTIVE-DESK-WITH-DROPPED-STORAGE%20(1).jpg"],
       ["Ecocentric Lite", "/website-images/Thumbnail_Desks-Tables_Desks_Ecocentric-Lite_Categories_Gallery_04_600x600px.jpg"],
+      ["Allure Detail", "/website-images/allure-detalle-1-1417x1000.webp"],
+      ["Allure Office", "/website-images/Allure-images-2.jpg"],
+      ["Allure F12", "/website-images/F12.-ALLURE-3.jpg"],
+      ["F25 Executive", "/website-images/F25_DESK_01.webp"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -300,6 +343,9 @@ export const productDetails = [
       ["Drone", "/website-images/drone-collaboration-meeting-table-offices-furniture%20(1).webp"],
       ["Evolution Steel", "/website-images/AIEnhancer_Evolution-installation-July201%20(1).png"],
       ["Snap Conference", "/website-images/entrawood-catalogue-72dpi-49%20(1).jpg"],
+      ["Meeting Setup", "/website-images/meeting%20cover%20(1).jpg"],
+      ["F25 Meeting", "/website-images/F25_DESK_01.webp"],
+      ["Evolution Meeting", "/website-images/AIEnhancer_EProcess.png"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -315,6 +361,8 @@ export const productDetails = [
       ["One Up", "/website-images/Thumbnail_Desks-Tables_Coffee_Tables_One-Up_Table_Categories_Gallery_01_600x600px.webp"],
       ["Happy Hour", "/website-images/AIEnhancer_HAPPY-HOUR-COFFEE-TABLES.png"],
       ["Nota", "/website-images/AIEnhancer_NOTA_008%20(2).png"],
+      ["Coffee Tables", "/website-images/AIEnhancer_Coffee_Tables_Baron_Baroness_P%20(1).png"],
+      ["Occasional Table", "/website-images/occassional%20tables%20cover%20(1).jpg"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -326,6 +374,8 @@ export const productDetails = [
       ["Lockers", "/website-images/Khy%20(8).jpg"],
       ["Melamine Storage", "/website-images/AIEnhancer_1%20(2).png"],
       ["Metal Storage", "/website-images/AIEnhancer_COVER%20(5).png"],
+      ["Storage Wall", "/website-images/cover%20(10).jpg"],
+      ["Shelf Storage", "/website-images/AIEnhancer_WhatsApp%20Image%202026-06-01%20at%204.png"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -338,6 +388,7 @@ export const productDetails = [
       ["Chatter Box", "/website-images/ChatterBox_2200x2200_2.547.webp"],
       ["SkyLite", "/website-images/SkyLite_Solo_Focus_Pod_1500x1100_7.webp"],
       ["Mutebox Lite", "/website-images/MUTEBOX-LITE-IN-ROOM.jpg"],
+      ["Pod Cover", "/website-images/COVER%20(13).jpg"],
     ].map(([name, image]) => ({ name, image })),
   },
   {
@@ -350,6 +401,7 @@ export const productDetails = [
       ["Global Mute Cocoon", "/website-images/GLOBAL-MUTE-COCOON%20SCREEN-2%20(1).jpg"],
       ["Global Mute Desk", "/website-images/AIEnhancer_GLOBAL-MUTE-DESK-BASED-SCREEN_.png"],
       ["Simple", "/website-images/AIEnhancer_SIMPLE-SCREEN-1%20(1).png"],
+      ["Acoustic Cover", "/website-images/COVER%20(14).jpg"],
     ].map(([name, image]) => ({ name, image })),
   },
 ];
