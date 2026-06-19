@@ -6,41 +6,58 @@ const clientCards = [
   {
     ...clients[0],
     image: "/website-images/glico%20healthcare.png",
+    logoMaxHeight: "114px",
+    logoMaxWidth: "82%",
   },
   {
     ...clients[1],
     image: "/website-images/Stanbic-IBTC-scaled.jpg",
+    logoMaxHeight: "158px",
+    logoMaxWidth: "72%",
   },
   {
     ...clients[2],
     image: "/website-images/Norfund_logo_as_of_2022%20(1).png",
+    logoMaxHeight: "112px",
+    logoMaxWidth: "82%",
   },
   {
     ...clients[3],
     name: "Equinix",
     image: "/website-images/Untitled%20design%20(6).png",
+    logoMaxHeight: "118px",
+    logoMaxWidth: "82%",
   },
   {
     name: "Maine One",
     description: clients[3].description,
     image: "/website-images/maine%20one%20.png",
+    logoMaxHeight: "86px",
+    logoMaxWidth: "78%",
   },
   {
     ...clients[4],
     image: "/website-images/Expro.jpg",
+    logoMaxHeight: "92px",
+    logoMaxWidth: "82%",
   },
   {
     ...clients[5],
     image: "/website-images/nestle-4-logo-png-transparent.png",
+    logoMaxHeight: "118px",
+    logoMaxWidth: "82%",
   },
   {
     ...clients[6],
     image: "/website-images/ERIS.png",
+    logoMaxHeight: "118px",
+    logoMaxWidth: "82%",
   },
   {
     ...clients[7],
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ghana_Revenue_Authority_logo_%28new%29.jpg/250px-Ghana_Revenue_Authority_logo_%28new%29.jpg",
+    image: "/website-images/AIEnhancer_grow-engineering-grow-construc.png",
+    logoMaxHeight: "112px",
+    logoMaxWidth: "82%",
   },
 ];
 
@@ -104,8 +121,8 @@ export default function ClientsPage() {
                 style={{
                   width: "auto",
                   height: "auto",
-                  maxWidth: "100%",
-                  maxHeight: "128px",
+                  maxWidth: client.logoMaxWidth,
+                  maxHeight: client.logoMaxHeight,
                   objectFit: "contain",
                 }}
               />
