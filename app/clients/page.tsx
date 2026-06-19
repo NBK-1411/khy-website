@@ -39,7 +39,8 @@ const clientCards = [
   },
   {
     ...clients[7],
-    image: "/website-images/Untitled%20design%20(9).png",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ghana_Revenue_Authority_logo_%28new%29.jpg/250px-Ghana_Revenue_Authority_logo_%28new%29.jpg",
   },
 ];
 
@@ -104,7 +105,7 @@ export default function ClientsPage() {
                   width: "auto",
                   height: "auto",
                   maxWidth: "100%",
-                  maxHeight: "164px",
+                  maxHeight: "128px",
                   objectFit: "contain",
                 }}
               />
